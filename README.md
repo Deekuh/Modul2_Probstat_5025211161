@@ -42,6 +42,8 @@ Output yang dihasilkan menunjukkan _Confidence Interval_ sebesar 95% serta rata-
 ### c) Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
 Karena dari poin (b) diperoleh nilai p-value < 2.2e-16 lebih kecil daripada 𝛼 = 0.05, maka dapat diambil kesimpulan untuk menolak hipotesis nol (H0) dan menerima hipotesis alternatif (H1). Hal ini berarti mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun.
 
+<br>
+
 ## Nomor 3 (Hipotesa 2 Sampel)
 Diketahui perusahaan memiliki seorang data analyst ingin memecahkan permasalahan pengambilan keputusan dalam perusahaan tersebut. Selanjutnya didapatkanlah data berikut dari perusahaan saham tersebut.
 
@@ -85,6 +87,8 @@ Karena dari poin (b) diperoleh nilai p-value = 0.03024 lebih kecil daripada 𝛼
 
 ### f) Kesimpulan
 Karena H0 ditolak dan H1 diterima, maka dapat disimpulkan bahwa rata-rata saham di Bandung tidak sama dengan rata-rata saham di Bali.
+
+<br>
 
 ## Nomor 4 (Anova Satu Arah) 
 Seorang Peneliti sedang meneliti spesies dari kucing di ITS . Dalam penelitiannya ia mengumpulkan data  tiga spesies kucing yaitu kucing oren, kucing hitam dan kucing putih dengan panjangnya masing-masing. 
@@ -168,6 +172,8 @@ Kemudian visualisasi data dapat diperoleh dengan menggunakan ggplot()
 ggplot(data, aes(x = Group, y = Length)) + geom_boxplot(fill = "grey", colour = "black") + scale_x_discrete() + xlab("Treatment Group") + ylab("Length (cm)")
 ```
 ![image](https://user-images.githubusercontent.com/90295688/207360614-469c2174-9715-4bfa-8be9-1fbfd7f13c78.png)
+
+<br>
 
 ## Nomor 5 (Anova Dua Arah) 
 Data yang digunakan merupakan hasil eksperimen yang dilakukan untuk mengetahui pengaruh suhu operasi (100˚C, 125˚C dan 150˚C) dan tiga jenis kaca pelat muka (A, B dan C) pada keluaran cahaya tabung osiloskop. Percobaan dilakukan sebanyak 27 kali dan didapat data sebagai berikut: Data Hasil Eksperimen. Dengan data tersebut: 
